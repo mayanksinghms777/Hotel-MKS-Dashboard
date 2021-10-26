@@ -10,9 +10,6 @@ const Room = require('../models/roomSchema')
 const Staff = require('../models/staffSchema')
 const Vehicle = require('../models/vehicleSchema')
 
-router.get('/', (req, res) => {
-    res.send('Hello World!')
-})
 
 
 router.post('/login', async(req, res) => {
