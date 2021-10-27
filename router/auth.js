@@ -11,7 +11,6 @@ const Staff = require('../models/staffSchema')
 const Vehicle = require('../models/vehicleSchema')
 
 
-
 router.post('/login', async(req, res) => {
 
     try{
